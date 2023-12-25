@@ -22,7 +22,7 @@ Prints out `<flightCode> <departureAirportID> <arrivalAirportID> <departureDate>
 Prints out `<flightCode> <arrivalAirportID> <departureData> <departureHour>` for every flight, ordered by date and hour of departure, from oldest to newest.
 - **`c`** _`<airportID>`_: Lists all flights that arrive at a certain airport.  \
 Prints out `<flightCode> <departureAirportID> <arrivalDate> <arrivalHour>` for every flight, ordered by date and hour of arrival, from oldest to newest.
-- **`t`** _`date`_: Advances the system's date.  \
+- **`t`** _`<date>`_: Advances the system's date.  \
 Prints out `<date>`, where is the current date's new value.
 - **`r`** _`<flightCode> <date> [<reservationCode> <nPassengers>]`_: Makes a new reservation or lists a flight's reservations.  \
 Prints out `<reservationCode> <nPassenger>` for every reservation for the flight with the code `<flightCode>` for the date `<date>`, ordered alphabetically by reservation code.
